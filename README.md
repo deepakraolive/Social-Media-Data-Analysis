@@ -1,36 +1,36 @@
-YouTube Content Data Analysis
+# YouTube Content Data Analysis
 
 This project analyzes YouTube content performance across different countries using Data Science techniques, including Exploratory Data Analysis (EDA), data visualization, hypothesis testing, and linear regression. The goal is to identify engagement patterns across content categories and understand the relationship between views and likes.
 
-Project Objective
+## Project Objective
 
 This project answers questions such as:
 
-Which content categories perform best in different countries?
+* Which content categories perform best in different countries?
 
-Is there a relationship between views and likes?
+* Is there a relationship between views and likes?
 
-Does content category significantly affect engagement?
+* Does content category significantly affect engagement?
 
-Can engagement be predicted using statistical models?
+* Can engagement be predicted using statistical models?
 
-Tech Stack
+## Tech Stack
 
-Python
+* Python
 
-Pandas
+* Pandas
 
-Matplotlib
+* Matplotlib
 
-Seaborn
+* Seaborn
 
-SciPy (Hypothesis Testing)
+* SciPy (Hypothesis Testing)
 
-Statsmodels (Linear Regression)
+* Statsmodels (Linear Regression)
 
-Google Colab
+* Google Colab
 
-Dataset
+## Dataset
 
 The dataset is not included in this repository due to its large file size.
 
@@ -38,74 +38,87 @@ Download it from Google Drive and upload it to your Google Drive before running 
 
 Dataset Link:
 
-How to Run
+## How to Run
 
-Open the Google Colab notebook:
+1. Open the Google Colab notebook:
 
-Download the dataset from the link above.
+2. Download the dataset from the link above.
 
-Upload the dataset to your Google Drive.
+3. Upload the dataset to your Google Drive.
 
-Mount Google Drive in Colab:
+4. Mount Google Drive in Colab:
 
-from google.colab import drive
-drive.mount('/content/drive')
+   Python
 
-Update the dataset path in the notebook:
+   Run
 
-file_path = "/content/drive/MyDrive/your_folder/your_file.csv"
+   ```
+   from google.colab import drive
+   drive.mount('/content/drive')
+   ```
 
-Run all cells to execute the complete analysis.
+5. Update the dataset path in the notebook:
 
-Analysis Performed
-Exploratory Data Analysis
+   Python
 
-Examined the dataset structure
+   Run
 
-Handled missing values
+   ```
+   file_path = "/content/drive/MyDrive/your_folder/your_file.csv"
+   ```
 
-Explored key features
+6. Run all cells to execute the complete analysis.
 
-Data Visualization
+## Analysis Performed
 
-Compared content performance across countries
+### Exploratory Data Analysis
 
-Analyzed category-wise engagement
+* Examined the dataset structure
 
-Visualized the relationship between views and likes
+* Handled missing values
 
-Hypothesis Testing
+* Explored key features
 
-Tested whether content category significantly affects engagement.
+### Data Visualization
 
-Result: The analysis found a statistically significant impact of content category on engagement.
+* Compared content performance across countries
 
-Linear Regression
+* Analyzed category-wise engagement
 
-Built a regression model to predict likes using views.
+* Visualized the relationship between views and likes
 
-Achieved an R² value of approximately 0.71, indicating a strong relationship between views and likes.
+### Hypothesis Testing
 
-Key Insights
+* Tested whether content category significantly affects engagement.
 
-Content preferences vary across countries.
+* Result: The analysis found a statistically significant impact of content category on engagement.
 
-Music and Entertainment consistently receive high engagement in many regions.
+### Linear Regression
 
-Lifestyle content performs particularly well in certain markets.
+* Built a regression model to predict likes using views.
 
-Views are a strong predictor of likes, although other factors also influence engagement.
+* Achieved an R² value of approximately 0.71, indicating a strong relationship between views and likes.
 
-Real-World Applications
+## Key Insights
 
-Content strategy optimization
+* Content preferences vary across countries.
 
-Regional audience targeting
+* Music and Entertainment consistently receive high engagement in many regions.
 
-Social media marketing insights
+* Lifestyle content performs particularly well in certain markets.
 
-Data-driven decision making
+* Views are a strong predictor of likes, although other factors also influence engagement.
 
-Feedback
+## Real-World Applications
+
+* Content strategy optimization
+
+* Regional audience targeting
+
+* Social media marketing insights
+
+* Data-driven decision making
+
+## Feedback
 
 Suggestions and contributions are welcome. If you found this project useful, consider giving it a star on GitHub.
